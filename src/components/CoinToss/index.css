@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 48px;
+  padding-left: 48px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.app-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 0px;
+  padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 22px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #a35200;
+  font-weight: 500;
+}
+
+.tag-line {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+}
+
+.toss-coin-button {
+  height: 30px;
+  width: 90px;
+  background-color: #f9d423;
+  color: #a35200;
+  text-align: center;
+  border-radius: 12px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.down-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TotalCoinsCount {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  font-weight: bold;
+}
